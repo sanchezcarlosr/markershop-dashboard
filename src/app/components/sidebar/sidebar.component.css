@@ -1,0 +1,24 @@
+.nav-style{
+    height: 100vh;
+    color:white;
+    font-weight: 500;
+    background: linear-gradient(to bottom,#FF743F,#D93D86,#58026F );
+}
+aside{
+    height: 100vh;
+}
+
+.title-link{
+    font-size: 28px;
+}
+p a:hover{
+    font-size: 30px;
+    color:brown;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+.collapse a:hover{
+    font-size: 20px;
+    border-bottom: white solid;
+    transition: border-bottom 0.3s ease, font-size 0.3s ease;
+}
+
