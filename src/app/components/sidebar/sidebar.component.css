@@ -1,24 +1,23 @@
-.nav-style{
-    height: 100vh;
+aside{
+    min-height: 100%;
     color:white;
-    font-weight: 500;
+    font-weight: bold;
     background: linear-gradient(to bottom,#FF743F,#D93D86,#58026F );
 }
-aside{
-    height: 100vh;
-}
-
 .title-link{
-    font-size: 28px;
+    font-size: 16px;
+}
+p a{
+    transition: transform 0.3s ease;
 }
 p a:hover{
-    font-size: 30px;
-    color:brown;
-    transition: color 0.3s ease, font-size 0.3s ease;
-}
-.collapse a:hover{
-    font-size: 20px;
-    border-bottom: white solid;
-    transition: border-bottom 0.3s ease, font-size 0.3s ease;
+    transform: scale(1.1);
 }
 
+.collapse a{
+    border-bottom: transparent solid 0.5px;
+}
+.collapse a:hover{
+    border-bottom: 0.5px solid white;
+    transition: border-bottom 0.4s ease-in;
+}
