@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.background{
+    background-color: #E7E6E9;
+    height: 100%;
+}
+h5{
+    font-size: 15px;
+}
+.card-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.title{
+    font-size: large;
+}
+.description{
+    font-size: small;
+}
+
