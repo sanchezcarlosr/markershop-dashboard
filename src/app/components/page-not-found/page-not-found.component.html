@@ -1,0 +1,21 @@
+<h2>Page Not Found</h2>
+<p>We couldn't find that page! Not even with x-ray vision.</p>
+@if(bandera){
+    <span>Hola</span>
+} @else {
+    <span>bañate</span>
+}
+<!-- @for(user of listOfUser) -->
+ <!-- Tenemos el concepto de props pero aqui usamo la
+  clausula @Input -->
+  <!-- Tenemmos @Output para enviar una señal de cualquier elemento haya cambiado y notificar al padre -->
+
+
+  @defer {
+    <h1>HolA</h1>
+  } @placeholder {
+    <p>Future comments</p>
+  } @loading (minimum 10s) {
+    <p>Loading comments...</p>
+  }
+<a class="btn btn-info" (mouseover)="click()">Peror</a>

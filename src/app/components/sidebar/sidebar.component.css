@@ -21,3 +21,6 @@ p a:hover{
     border-bottom: 0.5px solid white;
     transition: border-bottom 0.4s ease-in;
 }
+.collapse .activebutton {
+    border-bottom: 0.5px solid white;
+}

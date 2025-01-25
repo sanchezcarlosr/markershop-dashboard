@@ -4,26 +4,44 @@
     </header>
     <div class="row justify-content-around w-100">
         <div class="col-3">
-            <div class="card rounded-0">
+            <div class="card rounded-0" style="height: 85px;">
                 <div class="card-body">
                   <h5 class="card-title">Cantidad de Productos: </h5>
-                  <p class="card-text text-center">32.567</p>
+                  @if(!countProduct){
+                    <div class="placeholder-glow opacity-75">
+                      <p class="card-text placeholder w-100 rounded-3 bg-info"></p>
+                    </div>
+                  } @else {
+                    <p class="card-text text-center">{{countProduct}}</p>
+                  }
                 </div>
             </div>
         </div>
         <div class="col-3">
-            <div class="card rounded-0">
+            <div class="card rounded-0" style="height: 85px;">
                 <div class="card-body">
                   <h5 class="card-title">Cantidad de Clientes: </h5>
-                  <p class="card-text text-center">32.567</p>
+                   @if(!countClient){
+                    <div class="placeholder-glow opacity-75">
+                      <p class="card-text placeholder w-100 rounded-3 bg-info"></p>
+                    </div>
+                  } @else {
+                    <p class="card-text text-center">{{countClient}}</p>
+                  }
                 </div>
             </div>
         </div>
         <div class="col-3">
-            <div class="card rounded-0">
+            <div class="card rounded-0" style="height: 85px;">
                 <div class="card-body">
                   <h5 class="card-title">Ventas totales: </h5>
-                  <p class="card-text text-center">32.567</p>
+                  @if(!countSale){
+                    <div class="placeholder-glow opacity-75">
+                      <p class="card-text placeholder w-100 rounded-3 bg-info"></p>
+                    </div>
+                  } @else {
+                    <p class="card-text text-center">{{countSale}}</p>
+                  }
                 </div>
             </div>
         </div>
@@ -32,7 +50,7 @@
     <div class="row justify-content-around w-100 mt-4">
         <div class="col-3">
             <div class="col-12">
-                <div class="card rounded-0">
+                <div class="card rounded-0" style="max-width: 276px;">
                     <header class="p-1 ps-2 pt-2">
                         <h5>Usuario destacado: </h5>
                     </header>
@@ -62,7 +80,7 @@
 
         <div class="col-7">
             <div class="col-12">
-                <div class="card mb-3 shadow-sm rounded-0">
+                <div class="card mb-3 shadow-sm rounded-0" style="max-width: 676px;">
                     <div class="row g-0">
                         <header class="border-1 border-bottom ps-2 pt-2">
                             <h5>Producto más Popular</h5>
